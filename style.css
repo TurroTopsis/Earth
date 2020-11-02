@@ -1,0 +1,92 @@
+/* Color scheme: https://www.schemecolor.com/pastel-earth.php */
+
+/* TODO: Fix the lopsided #navBar */
+/* TODO: Fix lopsided <h3> and <h6> of articles */
+
+body {
+  font-family: Lato;
+  text-align: center;
+  margin: 0;
+  background-color: #F1EDC2;
+}
+
+h1 {
+  font-family: Sansita Swashed;
+  color: #9AC1D3;
+}
+
+h1, h3, h6 {
+  line-height: 60%;
+}
+
+.navBar {
+  padding: 10px;
+  background-color: #B4ECBB;
+}
+
+.navBar a {
+  text-decoration: none;
+  padding: 10px 50px;
+}
+
+.navBar a:hover {
+  color: #647D89;
+  background-color: #EADBB2;
+}
+
+#footer {
+  text-align: left;
+  padding: 10px;
+  background-color: #95E09D;
+}
+
+#footer img {
+  height: 40px;
+  float: right;
+}
+
+/* TODO: Fix .articlePreview so it doesn't go horizontally off screen */
+
+.articlePreview {
+  text-align: left;
+  width: 100%;
+  height: 200px;
+  padding: 15px 150px 15px 150px;
+  background-color: #9AC1D3;
+  margin-bottom: 50px;
+}
+
+.polariod {
+  float: right;
+  display: inline-block;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polariod img {
+  width: 400px;
+}
+
+.polariod p {
+  font-size: 70%;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+#text {
+  font-size: 80%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#previous {
+  font-size: 75px;
+  text-decoration: none;
+  float: left;
+  margin-left: 20px;
+}
+
+#previous:hover {
+  color: #647D89;
+}
